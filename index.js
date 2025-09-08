@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send(message);
 });
 
-app.get('/helloMars', (req, res) => res.send('Hello Mars!'));
+app.get('/hellouniverse', (req, res) => res.send('Hello Universe!'));
 app.get('/helloEarth', (req, res) => res.send('Hello Earth!'));
 
 app.listen(port, () => {
