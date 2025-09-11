@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
-const message = process.env.MESSAGE || 'Hello Devops';
+const message = process.env.MESSAGE || 'Hello inara';
 
 app.get('/', (req, res) => {
   res.send(message);
